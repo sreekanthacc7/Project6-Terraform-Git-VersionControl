@@ -17,8 +17,9 @@ Accenture DevInfra Capstone Project 6
 Project: Version Control Infrastructure
 Developer: Sreekanth Reddy
 Tool: Terraform
-Version: 1.0
-Status: Initial Configuration
+Version: 2.0
+Status: Updated Through Git Feature Branch
+Environment: Development
 EOT
 }
 
@@ -28,4 +29,8 @@ output "project_name" {
 
 output "file_path" {
   value = local_file.project6.filename
+}
+
+output "project_owner" {
+  value = "Sreekanth Reddy"
 }
